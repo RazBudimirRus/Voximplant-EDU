@@ -3,7 +3,7 @@ require(Modules.IVR); // Connecting the IVR module
 //Setting global variables
 let inboundCall;
 let outboundCall;
-let myNumber = "XXXXXXXXXXXXXXXX"; //In quotation marks you need to indicate your rented room
+let myNumber = "XXXXXXXXXXXXXXXX"; //In quotation marks you need to indicate your rented number
 let userNumber;
 
 //IVR is waiting for the input of a extention
