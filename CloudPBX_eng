@@ -11,7 +11,7 @@ const extState = new IVRState('extension', {
     type: 'inputfixed',
     inputLength: 3,
     prompt: {
-      say: 'Hello! You've reached Vox Implant. Please enter the employee's extension or stay on the line to speak with the secretary',
+      say: 'Hello! You have reached Vox Implant. Please enter the employees extension or stay on the line to speak with the secretary',
       lang: VoiceList.Amazon.en_US_Joanna
     }
   }, (data) => {
